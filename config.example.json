@@ -1,0 +1,7 @@
+{
+    "sentinel_hub": {
+        "client_id": "your_client_id_here",
+        "client_secret": "your_client_secret_here",
+        "instance_id": "your_instance_id_here"
+    }
+} 

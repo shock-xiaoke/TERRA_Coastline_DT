@@ -1,0 +1,17 @@
+# Core dependencies
+Flask
+geopandas
+shapely
+pandas
+numpy
+matplotlib
+rasterio
+sentinelhub>=3.9.0  # Required for Copernicus Data Space Ecosystem (sh_token_url, sh_base_url)
+requests
+requests-oauthlib
+pillow==10.3.0
+scipy==1.11.3
+scikit-learn==1.5.0
+scikit-image==0.22.0
+pyproj==3.6.1
+chardet==4.0.0
