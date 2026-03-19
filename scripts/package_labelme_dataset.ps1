@@ -12,7 +12,7 @@ if (-not (Test-Path $SourceDir)) {
 # ── Print manifest ────────────────────────────────────────────────────────────
 Write-Host ""
 Write-Host "Dataset contents:"
-Write-Host ("─" * 52)
+Write-Host ("-" * 52)
 
 $totalJson = 0
 Get-ChildItem -Directory $SourceDir | Sort-Object Name | ForEach-Object {
@@ -21,7 +21,7 @@ Get-ChildItem -Directory $SourceDir | Sort-Object Name | ForEach-Object {
     Write-Host ("  {0,-35} {1,4} JSON files" -f $_.Name, $count)
 }
 
-Write-Host ("─" * 52)
+Write-Host ("-" * 52)
 Write-Host ("  Total JSON files: {0}" -f $totalJson)
 Write-Host ""
 
